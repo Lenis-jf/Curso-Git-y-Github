@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-size: 1.8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 2rem auto;
+    font-weight: bold;
+    font-style: italic;
+    background-color: darkblue;
+    border-radius: 4rem;
+    color: white;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
