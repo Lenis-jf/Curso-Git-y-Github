@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: center;
     width: 40%;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: 3rem auto;
@@ -32,18 +32,19 @@ header {
 .introduction {
     display: flex;
     justify-content: center;
+    padding-left: 2rem;
     font-size: 2rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 .title {
     display: flex;
     justify-content: center;
-    width: 20%;
-    font-size: 2rem;
+    width: 24%;
+    font-size: 1.8rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    margin: 6rem auto;
+    margin: 4rem auto;
     font-weight: bold;
     font-style: italic;
     background-color: darkblue;
@@ -52,22 +53,37 @@ header {
     box-shadow: 0px 5px 10px 1px #535353;
 }
 
+.main-section_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
 .commands-content {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    width: 60%;
     margin: 0 auto;
-    width: 90%;
-    height: 27rem;
+    height: auto;
+    max-height: fit-content;
     border: black solid 0.1rem;
     border-radius: 1.5rem;
     font-size: 1.8rem;
     background-color: rgb(207, 176, 207);
     box-shadow: 0px 5px 10px 1px #535353;
+    padding: 4rem;
+}
+
+#commands-content_undeer {
+    margin-top: 3rem;
 }
 
 .commands-list_item {
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
 }
+

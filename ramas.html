@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIT</title>
-    <link rel="stylesheet" href="./ramas.css">
+    <link rel="stylesheet" href="./ramas_css/ramasPhone.css" media="screen and (min-width: 320px)">
+    <link rel="stylesheet" href="./ramas_css/ramasTablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./ramas_css/ramas.css" media="screen and (min-width: 800px)">
 </head>
 <body>
     <header class="header">
@@ -22,33 +24,62 @@
         <div class="title">
             COMANDOS
         </div>
-        <section class="commands-content">
-            <ul>
-                <li class="commands-list_item">
-                    git init -> Inicia el repositorio en un directorio
-                </li>
-                <br />
-                <li class="commands-list_item">
-                    git add -> Añade archivos a Staging
-                </li>
-                <br />
-                <li class="commands-list_item">
-                    git commit -> Envia los ultimos cambios al repositorio
-                </li>
-                <br />
-                <li class="commands-list_item">
-                    git status -> muestra el estado de la BD
-                </li>
-                <br />
-                <li class="commands-list_item">
-                    git show -> Muestra los cambios mas recientes
-                </li>
-                <br />
-                <li class="commands-list_item">
-                    git log -> Muestra el historial de cambios de un repositorio
-                </li>
-            </ul>
-        </section>
+        <section class="main-section_container">
+            <section class="commands-content">
+                <ul>
+                    <li class="commands-list_item">
+                        git init: Inicia el repositorio en un directorio
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git add: Añade archivos a Staging
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git commit: Envia los ultimos cambios al repositorio
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git status: muestra el estado de la BD
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git show: Muestra los cambios mas recientes
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git log: Muestra el historial de cambios de un repositorio
+                    </li>
+                </ul>
+            </section>
+            <section class="commands-content" id="commands-content_undeer">
+                <ul>
+                    <li class="commands-list_item">
+                        git config --global: Permite cambiar la configuración
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git diff: Muestra las diferencias entre commits
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git checkout: Nos permite navegar entre commits y ramas
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git rm: Elimina archivos
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git reset: Otra manera de eliminar archivos
+                    </li>
+                    <br />
+                    <li class="commands-list_item">
+                        git branch: Crea ramas
+                    </li>
+                </ul>
+            </section>
+    </section>
     </main>
 </body>
 </html>
